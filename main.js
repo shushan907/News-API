@@ -7,7 +7,6 @@ async function addNews(search) {
     let response = await fetch(url)
     let data = await response.json()
     data.articles.map(val => {
-        console.log(val)
         
         const div = document.createElement('div');
         div.classList.add('col');
