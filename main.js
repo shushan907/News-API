@@ -34,8 +34,13 @@ const topicNews = function(className) {
 document.querySelector('.button').addEventListener('click', (event) => {
     event.preventDefault();
     const search = document.querySelector('.input').value;
-    addNews(search);
+    search ? addNews(search):addNews('Armenia');
+    document.querySelector('.input').value = "";
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    addNews('Armenia');
+})
 
 topicNews('sport');
 topicNews('world');
