@@ -5,3 +5,41 @@ body {
 .btn {
     color: beige;
 }
+
+.newsList {
+    padding-top: 50px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.col {
+    border: 1px solid #343A40;
+    height: 300px;
+    padding: 0px;
+    position: relative;
+    box-shadow: 1px 1px;
+    margin: 2%;
+}
+
+.col p {
+    height: 175px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.col h5 {
+    background-color: #A02121;
+    color: beige;
+    height: 75px;
+    text-align: center;
+}
+
+.col a {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    text-decoration: none;
+    color: #A02121;
+}
