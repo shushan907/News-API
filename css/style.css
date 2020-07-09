@@ -15,18 +15,19 @@ body {
 }
 
 .col {
-    border: 1px solid #343A40;
-    height: 300px;
+    border: 20px double #782121;
+    min-height: 420px;
     padding: 0px;
     position: relative;
     box-shadow: 1px 1px;
-    margin: 2%;
+    margin: 25px 0;
 }
 
 .col p {
-    height: 175px;
     overflow: hidden;
     padding: 5px;
+    text-indent: 20px;
+    text-align: justify;
 }
 
 .col h5 {
@@ -39,7 +40,13 @@ body {
 .col a {
     position: absolute;
     right: 5px;
-    bottom: 5px;
+    bottom: 1px;
     text-decoration: none;
     color: #A02121;
+}
+
+.col img {
+    object-fit: contain;
+    height: 150px;
+    width: 100%;
 }
